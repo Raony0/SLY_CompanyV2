@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="SLY Company — spreading culture and aesthetics."
+    >
+
+    <title>SLY Company</title>
+
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- BOOTSTRAP -->
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+
+    <!-- BOOTSTRAP ICONS -->
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+        rel="stylesheet"
+    >
+
+
+    <!-- CSS DA SLY -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================
+     NAVBAR
+========================================= -->
+
+<header class="site-header">
+
+    <nav class="navbar navbar-expand-lg">
+
+        <div class="container-fluid px-3 px-lg-4">
+
+
+            <!-- MENU -->
+
+            <div class="collapse navbar-collapse order-2 order-lg-1"
+                 id="mainNavbar">
+
+                <ul class="navbar-nav gap-lg-4">
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link active"
+                            href="index.html"
+                        >
+                            Home
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="about.html"
+                        >
+                            About
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="items.html"
+                        >
+                            Collection
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="contact.html"
+                        >
+                            Contact
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- LOGO -->
+
+            <a
+                class="navbar-brand sly-logo order-1 order-lg-2"
+                href="index.html"
+            >
+                SLY
+            </a>
+
+
+            <!-- AÇÕES -->
+
+            <div class="navbar-actions order-3">
+
+
+                <!-- CARRINHO -->
+
+                <button
+                    class="cart-button"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#cartCanvas"
+                    aria-label="Open shopping bag"
+                >
+
+                    <i class="bi bi-bag"></i>
+
+                    <span class="cart-count">
+                        0
+                    </span>
+
+                </button>
+
+
+                <!-- MENU MOBILE -->
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar"
+                    aria-expanded="false"
+                    aria-label="Open menu"
+                >
+
+                    <i class="bi bi-list"></i>
+
+                </button>
+
+
+            </div>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+
+<!-- =========================================
+     MAIN
+========================================= -->
+
+<main>
+
+
+    <!-- =====================================
+         HERO
+    ====================================== -->
+
+    <section class="hero">
+
+        <div class="hero-overlay"></div>
+
+
+        <div class="container-fluid hero-container">
+
+            <div class="hero-content">
+
+
+                <p class="eyebrow hero-eyebrow">
+
+                    COLLECTION 001 — ROOTS
+
+                </p>
+
+
+                <h1>
+
+                    WEAR
+                    <br>
+                    YOUR MIND.
+
+                </h1>
+
+
+                <p class="hero-description">
+
+                    Spreading culture, art and
+                    aesthetics through clothing.
+
+                </p>
+
+
+                <a
+                    href="items.html"
+                    class="sly-button sly-button-light"
+                >
+
+                    EXPLORE COLLECTION
+
+                    <i class="bi bi-arrow-up-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         COLLECTION INTRO
+    ====================================== -->
+
+    <section class="section collection-intro">
+
+        <div class="container-fluid px-4 px-lg-5">
+
+
+            <div class="row align-items-end g-5">
+
+
+                <div class="col-lg-8">
+
+                    <p class="eyebrow">
+
+                        THE FIRST DROP
+
+                    </p>
+
+
+                    <h2 class="section-title">
+
+                        ROOTS / 001
+
+                    </h2>
+
+                </div>
+
+
+                <div class="col-lg-4">
+
+                    <p class="section-description">
+
+                        Four pieces built around references,
+                        contrast, identity and the details
+                        that make a garment feel personal.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         PRODUTOS
+    ====================================== -->
+
+    <section class="featured-products">
+
+        <div class="container-fluid px-4 px-lg-5">
+
+            <div
+                class="row g-4"
+                id="featured-products"
+            ></div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         STATEMENT
+    ====================================== -->
+
+    <section class="statement-section">
+
+        <div class="container-fluid px-4 px-lg-5">
+
+            <p class="eyebrow">
+
+                SLY COMPANY / 2025
+
+            </p>
+
+
+            <h2>
+
+                NOT MADE
+                <br>
+                <em>FOR EVERYONE.</em>
+
+            </h2>
+
+        </div>
+
+    </section>
+
+
+</main>
+
+
+
+<!-- =========================================
+     FOOTER
+========================================= -->
+
+<footer id="site-footer"></footer>
+
+
+
+<!-- =========================================
+     CARRINHO
+========================================= -->
+
+<div id="cart-container"></div>
+
+
+
+<!-- =========================================
+     MODAL
+========================================= -->
+
+<div id="product-modal-container"></div>
+
+
+
+<!-- BOOTSTRAP JS -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+></script>
+
+
+<!-- JAVASCRIPT DA SLY -->
+
+<script src="js/script.js"></script>
+
+
+</body>
+
+</html>
