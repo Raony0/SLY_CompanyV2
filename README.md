@@ -11,7 +11,7 @@ O projeto foi desenvolvido com foco tanto na construção da interface quanto na
 A identidade visual do projeto foi construída para transmitir uma estética minimalista e urbana, utilizando imagens, tipografia e composição visual como parte da experiência da marca.
 
 🔗 Confira o site:
-https://lnkd.in/djPFn8My
+https://raony0.github.io/SLY_CompanyV2/
 
 ---
 
